@@ -8,6 +8,7 @@ function countdown() {
     ).toLocaleTimeString()}`
   );
 
+  
   setTimeout(() => {
     const actualTime = Date.now(); // Capture the actual execution time
     const delay = actualTime - startTime; // Calculate the delay

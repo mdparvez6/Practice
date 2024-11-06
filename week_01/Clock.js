@@ -1,4 +1,4 @@
-// clock
+// clock 
 
 function abc() {
   let curtime = new Date().toLocaleTimeString();
